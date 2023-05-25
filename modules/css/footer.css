@@ -1,0 +1,29 @@
+/*footer*/
+
+.footer {
+    background-color: #f4f4f3;
+    border-top: 1px solid #dddddd;
+    padding: 50px 0;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block__title {
+    font-weight: 400;
+    font-size: 25px;
+
+    margin: 0 0 20px 0;
+}
+.information__list-item:nth-child(n):not(:last-child),
+.products__list-item:nth-child(n):not(:last-child),
+.contacts__list-item:nth-child(n):not(:last-child) {
+    margin: 0 0 10px 0;
+}
+
+.information__list-item a,
+.products__list-item a,
+.contacts__list-item a {
+    color: black;
+}
+/*footer*/

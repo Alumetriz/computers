@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Computers</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="wrapper">
+        <div class="header__wrapper">
+            <a href="../main/index.html" class="header__logo">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M2 6C2 4.34315 3.34315 3 5 3H19C20.6569 3 22 4.34315 22 6V15C22 16.6569 20.6569 18 19 18H13V19H15C15.5523 19 16 19.4477 16 20C16 20.5523 15.5523 21 15 21H9C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19H11V18H5C3.34315 18 2 16.6569 2 15V6ZM5 5C4.44772 5 4 5.44772 4 6V15C4 15.5523 4.44772 16 5 16H19C19.5523 16 20 15.5523 20 15V6C20 5.44772 19.5523 5 19 5H5Z"
+                        ></path>
+                    </g>
+                </svg>
+                <h1 class="logo-title">
+                    <span>C</span>omputers
+                </h1>
+            </a>
+
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-list-item"><a href="../main/index.html">Home</a></li>
+                    <li class="header__nav-list-item"><a href="#">Products</a></li>
+                    <li class="header__nav-list-item"><a href="#">Blog</a></li>
+                    <li class="header__nav-list-item"><a href="#">About Us</a></li>
+                    <li class="header__nav-list-item"><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-login__wrapper">
+                <a href="#">Log in</a>
+                <a href="#">Create an Account</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="registration-section">
+        <div class="wrapper">
+            <div class="registration__wrapper">
+                <h1 class="registration-title">Registration</h1>
+                <form class="registration-form" action="#" method="get">
+                    <div>
+                        <label for="first_name">First Name:</label>
+                        <input type="text" class="text-input" id="first_name" name="first_name" required>
+                    </div>
+
+                    <div>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" class="text-input" id="last_name" name="last_name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" class="email-input" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="password" class="password-input" id="password" name="password" required>
+                    </div>
+
+                    <div>
+                        <label for="country">Country:</label>
+                        <select id="country" name="country">
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Germany">Poland</option>
+                            <option value="Germany">England</option>
+                            <option value="Germany">France</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="date_of_birth">Date of Birth:</label>
+                        <input type="date" class="date-input" id="date_of_birth" name="date_of_birth" required>
+                    </div>
+
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender">
+                            <option value="Man">Man</option>
+                            <option value="Woman">Woman</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="interests">Interests:</label>
+                        <input type="checkbox" id="interest1" name="interests" value="Computers">
+                        <label for="interest1">Computers</label>
+                        <input type="checkbox" id="interest2" name="interests" value="Programming">
+                        <label for="interest2">Programming</label>
+                        <input type="checkbox" id="interest3" name="interests" value="Games">
+                        <label for="interest3">Games</label>
+                    </div>
+
+                    <div>
+                        <textarea id="message" class="message" placeholder="Message" name="message" rows="4" cols="50"></textarea>
+                    </div>
+
+                    <div class="buttons__wrapper">
+                        <button type="reset" class="form-btn clear-btn">Clear</button>
+                        <button type="submit" class="form-btn submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__wrapper">
+            <div class="info-block__wrapper">
+                <h4 class="footer-block__title">Information</h4>
+                <ul class="information-list">
+                    <li class="information__list-item"><a href="../main/index.html">Home</a></li>
+                    <li class="information__list-item"><a href="#">Products</a></li>
+                    <li class="information__list-item"><a href="#">Blog</a></li>
+                    <li class="information__list-item"><a href="#">About Us</a></li>
+                    <li class="information__list-item"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="products-block__wrapper">
+                <h4 class="footer-block__title">Products</h4>
+                <ol class="products__list">
+                    <li class="products__list-item"><a href="#">Monitors</a></li>
+                    <li class="products__list-item"><a href="#">Hard Drives</a></li>
+                    <li class="products__list-item"><a href="#">Keyboard / Mice</a></li>
+                    <li class="products__list-item"><a href="#">CPUs</a></li>
+                    <li class="products__list-item"><a href="#">Accessories</a></li>
+                </ol>
+            </div>
+
+            <div class="contacts__wrapper">
+                <h4 class="footer-block__title">Contacts</h4>
+                <ol class="contacts__list">
+                    <li class="contacts__list-item"><b>Phone: </b>+3800000000</li>
+                    <li class="contacts__list-item"><b>Email: </b>computers@example.com</li>
+                    <li class="contacts__list-item"><b>Address: </b>Kryvyi Rih</li>
+                    <li class="contacts__list-item">@ Микита Дрига ІПЗ-22-1 <a href="../cv/cv.html" target="_blank">CV</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

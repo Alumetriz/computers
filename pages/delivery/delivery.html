@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Computers</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="wrapper">
+        <div class="header__wrapper">
+            <a href="../main/index.html" class="header__logo">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M2 6C2 4.34315 3.34315 3 5 3H19C20.6569 3 22 4.34315 22 6V15C22 16.6569 20.6569 18 19 18H13V19H15C15.5523 19 16 19.4477 16 20C16 20.5523 15.5523 21 15 21H9C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19H11V18H5C3.34315 18 2 16.6569 2 15V6ZM5 5C4.44772 5 4 5.44772 4 6V15C4 15.5523 4.44772 16 5 16H19C19.5523 16 20 15.5523 20 15V6C20 5.44772 19.5523 5 19 5H5Z"
+                        ></path>
+                    </g>
+                </svg>
+                <h1 class="logo-title">
+                    <span>C</span>omputers
+                </h1>
+            </a>
+
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-list-item"><a href="../main/index.html">Home</a></li>
+                    <li class="header__nav-list-item"><a href="#">Products</a></li>
+                    <li class="header__nav-list-item"><a href="#">Blog</a></li>
+                    <li class="header__nav-list-item"><a href="#">About Us</a></li>
+                    <li class="header__nav-list-item"><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-login__wrapper">
+                <a href="#">Log in</a>
+                <a href="#">Create an Account</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="delivery-section">
+        <div class="wrapper">
+            <div class="delivery__wrapper">
+                <h1 class="delivery-title">Order delivery</h1>
+
+                <form class="delivery-form" action="#" method="get">
+                    <label for="name">Name:</label>
+                    <input class="text-input" type="text" id="name" name="name" required>
+
+                    <label for="address">Address:</label>
+                    <input class="text-input" type="text" id="address" name="address" required>
+
+                    <label for="phone">Phone:</label>
+                    <input class="tel-input" type="tel" id="phone" name="phone" required>
+
+                    <label for="email">Email:</label>
+                    <input class="email-input" type="email" id="email" name="email" required>
+
+                    <input type="submit" class="send-btn" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__wrapper">
+            <div class="info-block__wrapper">
+                <h4 class="footer-block__title">Information</h4>
+                <ul class="information-list">
+                    <li class="information__list-item"><a href="../main/index.html">Home</a></li>
+                    <li class="information__list-item"><a href="#">Products</a></li>
+                    <li class="information__list-item"><a href="#">Blog</a></li>
+                    <li class="information__list-item"><a href="#">About Us</a></li>
+                    <li class="information__list-item"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="products-block__wrapper">
+                <h4 class="footer-block__title">Products</h4>
+                <ol class="products__list">
+                    <li class="products__list-item"><a href="#">Monitors</a></li>
+                    <li class="products__list-item"><a href="#">Hard Drives</a></li>
+                    <li class="products__list-item"><a href="#">Keyboard / Mice</a></li>
+                    <li class="products__list-item"><a href="#">CPUs</a></li>
+                    <li class="products__list-item"><a href="#">Accessories</a></li>
+                </ol>
+            </div>
+
+            <div class="contacts__wrapper">
+                <h4 class="footer-block__title">Contacts</h4>
+                <ol class="contacts__list">
+                    <li class="contacts__list-item"><b>Phone: </b>+3800000000</li>
+                    <li class="contacts__list-item"><b>Email: </b>computers@example.com</li>
+                    <li class="contacts__list-item"><b>Address: </b>Kryvyi Rih</li>
+                    <li class="contacts__list-item">@ Микита Дрига ІПЗ-22-1 <a href="../cv/cv.html" target="_blank">CV</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
