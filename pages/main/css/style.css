@@ -116,15 +116,19 @@ body {
 }
 .banner-btn button {
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid #333;
     padding: 20px;
     background-color: transparent;
     width: 120px;
     height: 60px;
     margin: 0 auto;
     border-radius: 15px;
+    transition: all .3s;
 }
-
+.banner-btn button:hover {
+    background-color: #333;
+    color: #fff;
+}
 .showcase__list {
     display: flex;
     justify-content: center;
